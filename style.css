@@ -16,13 +16,15 @@ ul{
     background-color: #ffffff;
     color: #242f51;
 }
-.header{
+.header {
     max-width: 1600px;
     height: 2200px;
     background-color: #ffffff;
 }
-.inner_container{
+
+.inner_container {
     background-color: #fdfdfe;
+    height: 1000px;
 }
 
 .header_content{
@@ -271,7 +273,7 @@ ul{
     position: relative;
 }
 
-/* ίνΰ */
+/* Π―Π½Π° */
 
 /* .Yana {
     width: max-content;
@@ -340,16 +342,17 @@ ul{
 
 .TextDesign {
     margin-top: 150px;
-    margin-left: 111px;
-    max-width: 406px;
-    max-height: 331px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    max-height: 330px;
 }
 
 .BoldT1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
-    line-height: 10px;
+    line-height: 46px;
     color: #242f51;
 }
 
@@ -359,8 +362,8 @@ ul{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 16px;
-    line-height: 10px;
     color: #242f51;
+    line-height: 26px;
 }
 
 .LM {
@@ -376,7 +379,7 @@ ul{
     font-weight: bold;
     font-size: 16px;
     color: white;
-    padding:16px;
+    padding: 16px;
 }
 
     .LM:hover {
@@ -394,15 +397,13 @@ ul{
 }
 
 .Why {
-    /* max-width: 435px; */
     max-height: 106px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
     line-height: 46px;
-    /* margin-left: 585px; */
     text-align: center;
-    margin-bottom: 47px;
+    margin-bottom: 20px;
     margin-top: 220px;
     color: #242f51;
 }
@@ -414,13 +415,13 @@ ul{
     font-weight: normal;
     font-size: 16px;
     text-align: center;
-    line-height: 10px;
-    margin-left: 485px;
+    line-height: 26px;
+    margin: auto;
     color: #242f51;
 }
 
 .Reasons {
-    margin-left: 275px;
+   // margin-left: 275px;
     margin-top: 17px;
     margin-bottom: 100px;
     width: 970px;
@@ -428,25 +429,28 @@ ul{
     Display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
-    align-items: normal;
-    align-self: center;
+   // align-items: normal;
+  // align-self: center;
+   margin-left:auto;
+   margin-right:auto;
 }
 
 .IconReason {
-    width: 350px;
+    width: 280px;
     height: 260px;
     Display: block;
     justify-content: space-between;
     margin-top: 73px;
+    align-content: center;
 }
 
 .IconReasonHead {
-    font-weight: 185;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: #242f51;
 }
 
@@ -454,7 +458,7 @@ ul{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 16px;
-    line-height: 10px;
+    line-height: 26px;
     text-align: center;
     color: #242f51;
 }
@@ -465,8 +469,7 @@ ul{
     overflow: hidden;
     width: 90px;
     height: 90px;
-    margin-left: 133px;
-    margin-bottom: 38px;
+    margin-left: 90px;
 }
 
     .Ellipse.One {
@@ -505,17 +508,17 @@ ul{
 .MyTop {
     margin-top: 165px;
     Display: flex;
+    justify-content: center;
 }
 
 .MyBold {
-    margin-top: 0;
-    margin-left: 280px;
+    margin-top: 20px;
     margin-right: 75px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
     text-align: left;
-    line-height: 10px;
+    line-height: 50px;
     color: #242f51;
 }
 
@@ -527,7 +530,7 @@ ul{
 }
 
 .MyJust {
-    margin-top: 45px;
+    margin-top: 55px;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 16px;
@@ -540,15 +543,13 @@ ul{
     margin-top: 100px;
     Display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    align-items: center;
-    align-self: center;
-    margin-left: 220px;
-    margin-right: 250px;
+    justify-content: center;
+    width: 1060px;   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .OneIcon {
-    font-weight: 380;
     height: 225px;
 }
 
@@ -614,7 +615,7 @@ ul{
     color: #616368;
 }
 
-/*ΐλενΰ*/
+/*ΠΠ»ΠµΠ½Π°*/
 
 
 *,
@@ -625,27 +626,35 @@ ul{
 
 /* First block */
 .back_1 {
-    width: 100%;
-    max-width: 1600px;
+    width: 1340px;
     height: 862px;
-    //margin: 0 auto;
+    
+    margin-left: auto;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
 
+.ttext_block{
+position: relative;
+}
+
 .text_blok {
     width: 100%;
     max-width: 890px;
-    margin-left: 265px;
+    
     color: #242f51;
     line-height: 1.15;
+    justify-content: space-between;
+    display: flex;
 }
 
 .tx_title {
     font-size: 36px;
     max-width: 325px;
     font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 15px;
 }
 
 .abs_block {
@@ -781,13 +790,14 @@ ul{
 /* First block: left images */
 .imag_blok {
     position: relative;
-    max-width: 710px;
+    max-width: 730px;
     margin-top: 45px;
     height: 785px;
+    margin-left: 20px;
 }
 
 .ellipse6 {
-    margin-right: -15px;
+   // margin-right: -25px;
 }
 
 .Phone_left {
@@ -827,6 +837,8 @@ ul{
     max-width: 580px;
     font-size: 36px;
     line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .txt_the_rise_mbl {
@@ -837,9 +849,14 @@ ul{
     margin-left: -30px;
 }
 
+.boldprice {
+    font-weight: 700;
+    font-size: 60px;
+}
+
 /* Second block: Switch-button */
 .switch_bt {
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: 642px;
 }
 
@@ -996,8 +1013,9 @@ ul{
     font-size: 20px;
     font-weight: bold;
     color: #242f51;
-    max-width: 160px;
-    margin-left: 83px;
+    max-width: 315px;
+    //margin-left: 83px;
+    text-align: center;
 }
 
 .price_abs_1 {
@@ -1008,7 +1026,7 @@ ul{
 }
 
 .bt_start_free_trail {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 55px;
     border-radius: 28px;
     border: none;
@@ -1031,13 +1049,15 @@ ul{
     }
 
 .abs_num_4 {
-    margin-top: 40px;
+    margin-top: 20px;
     color: #616368;
+    text-align: center;
+    line-height: 48px;
 }
 
-    .abs_num_4 p {
-        text-align: center;
-    }
+.blueText {
+   
+}
 
 /* Second block: right price */
 .rct_right {
@@ -1045,6 +1065,7 @@ ul{
     border-radius: 10px;
     height: 605px;
     width: 315px;
+    
 }
 
     .rct_right:hover {
@@ -1059,28 +1080,18 @@ ul{
     width: 100%;
 }
 
-    .rct_small_grad_txt_2 p {
-        font-weight: 300;
-        color: #616368;
-    }
-
-        .rct_small_grad_txt_2 p b {
-            font-weight: 700;
-            color: #242f51;
-            font-size: 50px;
-        }
-
 .price_txt_master {
     width: 100%;
     font-size: 20px;
     font-weight: bold;
     color: #242f51;
-    max-width: 150px;
-    margin-left: 105px;
+    max-width: 315px;
+   
+    text-align: center;
 }
 
 .bt_subscribe_now {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 55px;
     border-radius: 28px;
     border: none;
@@ -1092,7 +1103,7 @@ ul{
     color: white;
     font-weight: bold;
     transition: all .2s ease;
-    padding:16px;
+    padding :16px;
 }
 
     .bt_subscribe_now:hover {
@@ -1105,19 +1116,23 @@ ul{
 .abs_start_14_days {
     text-align: center;
     margin-top: 35px;
-    color: #2500f9;
+    color: #2563ff;
     font-weight: 500;
     text-decoration: none;
 }
 
-    .abs_start_14_days :hover {
+    .abs_start_14_days:hover {
         color: black;
         transition: .2s;
         text-decoration: underline;
     }
+
+.headertime{
+    height: 2200px;
+}
 /* End of Second block */
 
-/*ί*/
+/*Π―*/
 
 .world {
     max-width: 1600px;
@@ -1144,9 +1159,8 @@ ul{
 
 
 .content_about {
-    margin-left: 800px;
-    position: absolute;
-    margin-right: 100px;
+    width: 800px;
+    margin-left: -10px;
 }
 
 
@@ -1185,9 +1199,8 @@ ul{
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    margin-right: 120px;
-    width:570px;
-    hyphens:auto;
+    
+    width: 500px;
 }
 
 .Man {
@@ -1220,46 +1233,48 @@ ul{
 }
 
 .queshead {
-    margin-top: 25px;
-    margin-left: 375px;
-    margin-right: auto;
+    padding-top: 25px;
+    padding-left: 50px;
+    width: 920px;
     text-align: justify;
     font-size: 20px;
     font-weight: 600;
     line-height: 58px;
-    position: absolute;
 }
 
 .queshead2 {
-    margin-top: 5px;
-    margin-left: 375px;
+    padding-top: 5px;
+    padding-left: 50px;
     margin-right: auto;
     text-align: justify;
     font-size: 20px;
     font-weight: 600;
     line-height: 58px;
-    position: absolute;
+    width: 920px;
 }
 
 .answ {
-    margin-top: 95px;
-    margin-left: 375px;
+    padding-top: 20px;
+    padding-left: 50px;
     margin-right: auto;
     text-align: justify;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    position: absolute;
 }
 
 .FAQH {
     margin-top: 200px;
     margin-left: auto;
-
+    margin-right: auto;
+    /* align-content: center; */
     text-align: center;
     font-size: 40px;
+    align-items: center;
+    /* justify-content: center; */
     font-weight: 600;
     line-height: 50px;
+    width: 965px;
 }
 
 .FAQHinfo {
@@ -1274,11 +1289,19 @@ ul{
 
 .faq1rect {
     margin-top: 35px;
-    position: relative;
+    background-color: #f5f7fa;
+    width: 965px;
+    height: 250px;
+    margin-bottom: 5px;
 }
 
 .faqrect {
-    position: relative;
+    background-color: #f5f7fa;
+    /* position: relative; */
+    width: 965px;
+    height: 60px;
+    margin-bottom: 5px;
+    display: flex;
 }
 
 .trusted_icons {
@@ -1289,8 +1312,9 @@ ul{
 
 .arrows {
     display: flex;
-    margin-left: 200px;
+    margin-left: auto;
     flex-direction: row;
+    width: 350px;
 }
 
 .arrow_icon_img {
@@ -1332,8 +1356,9 @@ ul{
     margin-top: 10px;
     font-size: 25px;
     font-weight: 600;
-    position: absolute;
-    margin-left: 1225px;
+    /* position: absolute; */
+    text-align: right;
+    margin-right: 30px;
 }
 
     .plus:hover {
@@ -1347,7 +1372,8 @@ ul{
 
 .download_wrapper {
     margin-top: 110px;
-    margin-left: 230px;
+    width: 1370px;
+    margin-left: auto;
     display: flex;
     justify-content: space-between;
 }
